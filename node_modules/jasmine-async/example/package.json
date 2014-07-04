@@ -1,0 +1,7 @@
+{
+  "name": "JasmineAsyncExample",
+  "version": "0.0.1",
+  "dependencies": {
+    "jasmine-async": "*"
+  }
+}

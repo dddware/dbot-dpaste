@@ -1,0 +1,28 @@
+{
+  "name": "dbot-dpaste",
+  "description": "dpaste plugin for dbot",
+  "main": "dbot.js",
+  "scripts": {
+    "test": "jasmine-node dbot-dpaste.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dddware/dbot-dpaste"
+  },
+  "author": {
+    "name": "neemzy",
+    "email": "tom.panier@free.fr"
+  },
+  "bugs": {
+    "url": "https://github.com/dddware/dbot-dpaste/issues"
+  },
+  "homepage": "https://github.com/dddware/dbot-dpaste",
+  "dependencies": {
+    "follow-redirects": "0.0.3",
+    "qs": "~0.6.6",
+    "deferred": "~0.7.1"
+  },
+  "devDependencies": {
+    "jasmine-async": "0.0.1"
+  }
+}
