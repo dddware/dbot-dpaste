@@ -15,5 +15,5 @@ An URL with the given content.
 ## Tests
 
 ```shell
-npm test # run tests
+npm test
 ```
