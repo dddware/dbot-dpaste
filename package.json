@@ -1,6 +1,7 @@
 {
   "name": "dbot-dpaste",
   "description": "dpaste plugin for dbot",
+  "version": "0.0.1",
   "main": "dbot.js",
   "scripts": {
     "test": "jasmine-node dbot-dpaste.spec.js"
