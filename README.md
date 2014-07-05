@@ -1,4 +1,6 @@
-# dbot-list
+# dbot-paste
+
+![Travis CI](https://travis-ci.org/dddware/dbot-dpaste.svg)
 
 [dpaste](http://dpaste.cc) plugin for [dbot](https://github.com/dddware/dbot).
 
