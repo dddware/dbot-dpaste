@@ -1,6 +1,5 @@
-var AsyncSpec = require('jasmine-async')(jasmine)
-  , http = require('follow-redirects').http
-  , dpaste = require('./dbot-dpaste');
+var dpaste = require('./dbot-dpaste')
+  , http = require('follow-redirects').http;
 
 // Mock regex matches
 var testString = 'some dummy content'
@@ -8,10 +7,9 @@ var testString = 'some dummy content'
   , pattern = /http:\/\/dpaste\.cc\/paste\/([a-z0-9]{24})/;
 
 describe('dpaste', function () {
-  var async = new AsyncSpec(this)
-    , asyncResult;
+  var asyncResult;
 
-  async.it('should return a correct url', function (done) {
+  it('should return a correct url', function (done) {
     dpaste.callback(matches).then(function (result) {
       asyncResult = result;
       expect(asyncResult).toMatch(pattern);
@@ -20,7 +18,7 @@ describe('dpaste', function () {
     });
   });
 
-  async.it('should have pasted the right content', function (done) {
+  it('should have pasted the right content', function (done) {
     var params = {
           host: 'dpaste.cc',
           port: 80,
